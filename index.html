@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maghisha | My Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== 🌊 OCEAN (bubbles JS la generate aagum) ===== -->
+  <div id="ocean"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <div class="logo"><span>Maghisha</span></div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <header class="hero">
+    <div class="hero-text">
+      <span class="badge">🌊 My Portfolio 🌊</span>
+      <p class="hello">HELLO, I'M</p>
+      <h1>Maghisha <span>🌊</span></h1>
+      <div class="typing" id="typing"></div>
+      <p>A passionate BCA student who loves technology, creativity, and turning ideas into real digital experiences — deep like the ocean. 💙</p>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-ring"></div>
+      <div class="photo-box">
+        <img src="profile.jpg" alt="Maghisha">
+      </div>
+    </div>
+
+    <!-- 🌊 ANIMATED WAVES -->
+    <div class="waves">
+      <svg class="wave-svg wave-back" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,64 C150,110 350,10 600,64 C850,118 1050,14 1200,64 L1200,120 L0,120 Z" fill="rgba(0,229,255,0.10)"/>
+      </svg>
+      <svg class="wave-svg wave-back" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,64 C150,110 350,10 600,64 C850,118 1050,14 1200,64 L1200,120 L0,120 Z" fill="rgba(0,229,255,0.10)"/>
+      </svg>
+      <svg class="wave-svg wave-front" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,64 C150,110 350,10 600,64 C850,118 1050,14 1200,64 L1200,120 L0,120 Z" fill="rgba(0,229,192,0.18)"/>
+      </svg>
+      <svg class="wave-svg wave-front" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,64 C150,110 350,10 600,64 C850,118 1050,14 1200,64 L1200,120 L0,120 Z" fill="rgba(0,229,192,0.18)"/>
+      </svg>
+    </div>
+  </header>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="reveal">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-card">
+      <p>I'm <strong>Maghisha</strong>, a motivated and enthusiastic <strong>BCA student</strong> who loves learning, creativity, and technology. I'm always eager to explore new challenges, develop my skills, and gain practical experience through real-world projects.</p>
+      <p>My goal is to build meaningful digital experiences and grow professionally while continuously learning and improving every single day. 🌱</p>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills" class="reveal">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-wrap">
+
+      <!-- 💻 FRONTEND SKILLS -->
+      <h3 class="skills-subtitle">💻 Frontend Skills</h3>
+
+      <div class="skill">
+        <div class="skill-head"><span>HTML5 &amp; CSS3</span><span>90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>JavaScript (ES6+)</span><span>75%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>React</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>Next.js</span><span>65%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>Tailwind CSS</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>Responsive Design</span><span>85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+      </div>
+
+      <!-- ⚙️ BACKEND SKILLS -->
+      <h3 class="skills-subtitle">⚙️ Backend Skills</h3>
+
+      <div class="skill">
+        <div class="skill-head"><span>Node.js</span><span>65%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>Express.js</span><span>60%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>MongoDB</span><span>65%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="65%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>MySQL</span><span>60%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="60%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>REST API</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-head"><span>Python</span><span>70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+      </div>
+
+      <!-- 🌟 CREATIVE & PERSONAL SKILLS -->
+      <h3 class="skills-subtitle">🌟 Creative &amp; Personal Skills</h3>
+      <div class="soft-tags">
+        <span class="tag">🎨 Creativity</span>
+        <span class="tag">⏰ Time Management</span>
+        <span class="tag">⚡ Fast Learning</span>
+        <span class="tag">🤝 Teamwork</span>
+        <span class="tag">🗣️ Communication</span>
+      </div>
+
+      <!-- 🛠️ TOOLS -->
+      <h3 class="skills-subtitle">🛠️ Tools I Use</h3>
+      <div class="soft-tags">
+        <span class="tag">🔄 Git &amp; GitHub</span>
+        <span class="tag">📝 VS Code</span>
+        <span class="tag">🎨 Figma</span>
+        <span class="tag">🖌️ Canva</span>
+        <span class="tag">🚀 Vercel</span>
+        <span class="tag">📮 Postman</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="reveal">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="emoji">🌐</div>
+        <h3>Personal Portfolio</h3>
+        <p>A creative portfolio website to showcase my skills, projects and journey — designed and built from scratch.</p>
+        <p class="tech">HTML • CSS • JavaScript</p>
+      </div>
+
+      <div class="project-card">
+        <div class="emoji">📱</div>
+        <h3>Project Two</h3>
+        <p>A creative project where I applied my knowledge and skills to build a practical solution.</p>
+        <p class="tech">Add your tech here</p>
+      </div>
+
+      <div class="project-card">
+        <div class="emoji">🎯</div>
+        <h3>Project Three</h3>
+        <p>A project that helped me improve my technical abilities, creativity, and problem-solving skills.</p>
+        <p class="tech">Add your tech here</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education" class="reveal">
+    <h2 class="section-title">My <span>Education</span></h2>
+    <div class="edu-wrap">
+      <div class="info-card">
+        <h3>🎓 Education</h3>
+        <ul>
+          <li><strong>BCA – Bachelor of Computer Applications</strong></li>
+          <li>Avichi College</li>
+          <li>1st Year — Pursuing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="reveal">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+    <div class="contact-wrap">
+      <p>I'm always open to new opportunities, collaborations, and learning experiences. Message pannunga — naan respond pannuven! 💙</p>
+
+      <form action="https://formsubmit.co/maghishaanitha@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from your Portfolio! 🌊">
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Your email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn">Send Message 🚀</button>
+      </form>
+
+      <div class="social-row">
+        <a href="mailto:maghishaanitha@gmail.com">📧 Email</a>
+        <a href="#" target="_blank">💼 LinkedIn</a>
+        <a href="#" target="_blank">💻 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THANK YOU SECTION ===== -->
+  <section class="thanks reveal">
+    <h2 class="thanks-title">Thank You 💙</h2>
+    <p class="thanks-text">for visiting my portfolio! Let's connect and create something amazing together. 🚀</p>
+    <p class="thanks-waves">🌊 🌊 🌊</p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>Designed &amp; Built with 💙 by <span>Maghisha</span> © 2025</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
